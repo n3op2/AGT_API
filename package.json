@@ -4,13 +4,17 @@
   "description": "api",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:build": "tsc --watch"
   },
   "author": "n3op2",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
-    "mongoose": "^5.4.16"
+    "mongoose": "^5.4.16",
+    "nodemailer": "^5.1.1"
   }
 }
